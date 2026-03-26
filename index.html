@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuvo Ghosh — Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">SG<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">Hire Me →</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="section-content-container" style="width:100%;position:relative;z-index:2;">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Available for new projects
+                </div>
+                <p class="hero-greeting">Hey 👋 I'm</p>
+                <h1>Shuvo<br><span class="highlight">Ghosh</span></h1>
+                <p class="hero-desc">
+                    <strong style="font-weight: 700;">Full Stack Developer | WordPress, Shopify, React & Next.js
+                        Expert</strong> <br>
+                    Building fast, scalable, and visually stunning web experiences with 3+ years of hands-on expertise.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View My Work →</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-num" data-count="50">0</div>
+                        <div class="stat-label">Projects Done</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-count="3">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-count="100">0</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-avatar-ring">
+                    <div class="orbit-dot"></div>
+                    <div class="orbit-dot"></div>
+                    <div class="hero-img-inner">
+                        <img src="https://res.cloudinary.com/dgyj6vnhv/image/upload/v1774121394/shuvop_kn9jdr.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="tech-tags">
+                    <span class="tech-tag">WordPress</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Next.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="section-content-container">
+            <div class="section-label reveal">What I Do</div>
+            <h2 class="reveal">My <em>Specializations</em></h2>
+            <p class="section-sub reveal">Building digital products with clean code, strong UI, and performance that
+                matters to real users.</p>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🔷</div>
+                    <h3>WordPress Development</h3>
+                    <p>Custom themes, WooCommerce stores, performance optimization, and complete WordPress solutions
+                        tailored to your brand and business goals.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🎨</div>
+                    <h3>Elementor & Page Builders</h3>
+                    <p>Beautiful, conversion-focused pages built in Elementor Pro with custom styling, advanced
+                        animations, and dynamic content integration.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon"> 🗂️</div>
+                    <h3>DIVI & Page Builders</h3>
+                    <p>Beautiful, conversion-focused pages built in DIVI with custom styling, advanced
+                        animations, and dynamic content integration.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Optimization</h3>
+                    <p>Custom Shopify stores, theme customization, app integrations, and conversion-optimized
+                        storefronts tailored to grow your eCommerce business.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">🛍️</div>
+                    <h3>Shopify Development</h3>
+                    <p> Fully custom WordPress themes built from scratch — pixel-perfect, responsive, and optimized for
+                        speed, SEO, and seamless content management.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+                <div class="service-card reveal">
+                    <div class="service-icon">⚛️</div>
+                    <h3>Front-End with React & Next.js</h3>
+                    <p>Pixel-perfect, blazing-fast interfaces using React, Next.js, and modern CSS. SEO-optimized and
+                        responsive across every device.</p>
+                    <a href="#projects" class="arrow">View Projects →</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-content-container">
+            <div class="section-label reveal">Expertise</div>
+            <h2 class="reveal">Technical <em>Skills</em></h2>
+            <p class="section-sub reveal">Proficiency levels based on real project experience and continuous learning.
+            </p>
+            <div class="skills-layout">
+                <div class="skill-bar-list">
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">WordPress Development</span><span
+                                class="skill-pct">100%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">WooCommerce</span><span
+                                class="skill-pct">100%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">Elemento</span><span
+                                class="skill-pct">95%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">DIVI</span><span
+                                class="skill-pct">100%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">Shopify</span><span
+                                class="skill-pct">80%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="80"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">HTML5 & CSS3</span><span
+                                class="skill-pct">95%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="95"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">JavaScript / jQuery</span><span
+                                class="skill-pct">88%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="88"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">React & Next.js</span><span
+                                class="skill-pct">85%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="85"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-header"><span class="skill-name">Task / Project Management</span><span
+                                class="skill-pct">100%</span></div>
+                        <div class="skill-track">
+                            <div class="skill-fill" data-width="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-stack reveal">
+                    <h3>Tools & Technologies</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item"><span class="ti">🔷</span>WordPress</div>
+                        <div class="tech-item"><span class="ti">🛒</span>WooCommerce</div>
+                        <div class="tech-item"><span class="ti">🧩</span>Elementor</div>
+                        <div class="tech-item"><span class="ti">🗂️</span>DIVI</div>
+                        <div class="tech-item"><span class="ti">📜</span>JavaScript</div>
+                        <div class="tech-item"><span class="ti">💲</span>jQuery</div>
+                        <div class="tech-item"><span class="ti">🛍️</span>Shopify </div>
+                        <div class="tech-item"><span class="ti">⚛️</span>React & Next.js</div>
+                        <div class="tech-item"><span class="ti">🔵</span>REST API</div>
+                        <div class="tech-item"><span class="ti">🎨</span>CSS3</div>
+                        <div class="tech-item"><span class="ti">🟠</span>HTML5</div>
+                        <div class="tech-item"><span class="ti">🔥</span>PHP</div>
+                        <div class="tech-item"><span class="ti">🗄️</span>MySQL</div>
+                        <div class="tech-item"><span class="ti">🐙</span>Git</div>
+                        <div class="tech-item"><span class="ti">🎯</span>Figma</div>
+                        <div class="tech-item"><span class="ti">📦</span>VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-content-container">
+            <div class="about-layout">
+                <div class="about-img-wrap reveal">
+                    <div class="about-img-box">
+                        <img src="https://res.cloudinary.com/dgyj6vnhv/image/upload/v1774120273/New_Project_ulxc2m.png"
+                            alt="">
+                    </div>
+                    <div class="about-float-badge">3+<span>Years Exp.</span></div>
+                </div>
+                <div class="about-text">
+                    <div class="section-label reveal">About Me</div>
+                    <h2 class="reveal">I can develop that <em>help people</em></h2>
+                    <p class="reveal">I'm a passionate digital WordPress developer with 3+ years of experience
+                        specializing in Elementor, CSS, WooCommerce, React, and Next.js. I craft advanced, SEO-optimized
+                        websites that prioritize speed and usability.</p>
+                    <p class="reveal">Experienced with Elementor's features for advanced functionality, I design popular
+                        WordPress plugins for maximum versatility and consistently deliver high-quality, client-focused
+                        solutions built and verified by collaboration.</p>
+                    <div class="info-grid reveal">
+                        <div class="info-item">
+                            <div class="info-label">Name</div>
+                            <div class="info-val">Shuvo Ghosh</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Nationality</div>
+                            <div class="info-val">Dhaka, BD</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Email</div>
+                            <div class="info-val">info@shuvo.dev</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Phone</div>
+                            <div class="info-val">+880177238511</div>
+                        </div>
+                    </div>
+                    <div class="education-block reveal">
+                        <div class="info-label">Education</div>
+                        <div class="edu-item">
+                            <div class="edu-degree">Computer Science & Engineering</div>
+                            <div class="edu-university">International University of Business Agriculture and Technology
+                            </div>
+                            <div class="edu-year">2016 – 2021</div>
+                        </div>
+                    </div>
+                    <div class="hero-btns reveal">
+                        <a href="#" class="btn-primary">Download CV →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-content-container">
+            <div class="section-label reveal">Career</div>
+            <h2 class="reveal">My <em>Experience</em></h2>
+            <p class="section-sub reveal">A journey through impactful roles where I honed my craft.</p>
+            <div class="exp-timeline">
+                <div class="exp-item reveal">
+                    <div class="exp-date">2022 – Present</div>
+                    <div class="exp-role">Full Stack WordPress Developer — Freelance</div>
+                    <div class="exp-company">Remote / Upwork / Direct Clients</div>
+                    <div class="exp-desc">Delivered 50+ WordPress and React-based projects for clients globally.
+                        Specialized in WooCommerce builds, Elementor customizations, and performance tuning.</div>
+                </div>
+                <div class="exp-item reveal">
+                    <div class="exp-date">2021 – 2022</div>
+                    <div class="exp-role">Junior WordPress Developer</div>
+                    <div class="exp-company">Digital Agency, Dhaka</div>
+                    <div class="exp-desc">Built and maintained WordPress websites for agency clients. Worked closely
+                        with design team to implement Figma mockups with pixel-perfect accuracy.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-content-container">
+            <div class="section-label reveal">Portfolio</div>
+            <h2 class="reveal">Featured <em>Projects</em></h2>
+            <p class="section-sub reveal">A curated selection of my best work across WordPress, React, and full-stack
+                builds.</p>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-thumb" style="background: linear-gradient(135deg,#001a0d,#002a1a)">🌿</div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag">React</span><span
+                                class="project-tag">Next.js</span></div>
+                        <h3>MySight</h3>
+                        <p>A modern React + Next.js web application with a clean UI, dark mode, and blazing-fast
+                            performance.</p>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-thumb" style="background: linear-gradient(135deg,#001020,#001830)">✂️</div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag">WordPress</span><span
+                                class="project-tag">WooCommerce</span></div>
+                        <h3>ClippingPathFinder</h3>
+                        <p>Professional image clipping path services website built with WordPress and custom WooCommerce
+                            checkout flow.</p>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-thumb" style="background: linear-gradient(135deg,#1a0010,#2a001a)">📝</div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag">WordPress</span><span
+                                class="project-tag">Elementor</span></div>
+                        <h3>Porfyri</h3>
+                        <p>Sophisticated WordPress blog and portfolio with advanced Elementor customizations and SEO
+                            optimization.</p>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-thumb" style="background: linear-gradient(135deg,#0d1a00,#1a2a00)">🎬</div>
+                    <div class="project-info">
+                        <div class="project-tags"><span class="project-tag">WordPress</span><span
+                                class="project-tag">Video</span></div>
+                        <h3>ArchivalFootageService</h3>
+                        <p>Stock footage marketplace with advanced search, filtering, licensing system and secure media
+                            delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+        <div class="section-content-container">
+            <div class="section-label reveal">Packages</div>
+            <h2 class="reveal">Best <em>Pricing Plans</em></h2>
+            <p class="section-sub reveal">Transparent, no-surprise pricing for quality work delivered on time.</p>
+            <div class="pricing-grid">
+                <div class="price-card reveal">
+                    <div class="price-title">WordPress Development</div>
+                    <div class="price-sub">Perfect for small to medium business websites</div>
+                    <div class="price-amount"><sup>$</sup>200</div>
+                    <ul class="price-features">
+                        <li>Full-page WordPress build</li>
+                        <li>Design customization</li>
+                        <li>Responsive design</li>
+                        <li>SEO ready setup</li>
+                        <li>2 rounds of revisions</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary" style="width:100%;text-align:center;display:block">Order
+                        Now</a>
+                </div>
+                <div class="price-card featured reveal">
+                    <div class="price-title">Front-End with React & Next.js</div>
+                    <div class="price-sub">For modern, high-performance web applications</div>
+                    <div class="price-amount"><sup>$</sup>220</div>
+                    <ul class="price-features">
+                        <li>React + Next.js build</li>
+                        <li>Responsive & animated UI</li>
+                        <li>Custom features included</li>
+                        <li>Performance optimized</li>
+                        <li>3 rounds of revisions</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary" style="width:100%;text-align:center;display:block">Hire Me
+                        →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-content-container">
+            <div class="contact-inner">
+                <div class="section-label reveal">Contact</div>
+                <h2 class="reveal">Let's <em>Talk</em></h2>
+                <p class="section-sub reveal" style="margin: 0 auto 20px; text-align:center;">Got a project in mind? I'd
+                    love to hear about it. Send me a message and let's make something great together.</p>
+                <a href="mailto:info@shuvo.dev" class="contact-email reveal">info@shuvo.dev</a>
+                <div class="contact-links reveal">
+                    <a href="tel:+8801772385111" class="contact-link">📞 +880177238511</a>
+                    <a href="#" class="contact-link">💼 LinkedIn</a>
+                    <a href="#" class="contact-link">🐙 GitHub</a>
+                    <a href="#" class="contact-link">📍 Dhaka, BD</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <span>© 2025 <a href="#">Shuvo Ghosh</a>. All rights reserved.</span>
+            <span>Designed & Built with ❤️</span>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(document).on('mousemove', function (e) {
+                $('#cursor').css({ left: e.clientX - 6, top: e.clientY - 6 });
+                setTimeout(function () {
+                    $('#cursorRing').css({ left: e.clientX - 20, top: e.clientY - 20 });
+                }, 60);
+            });
+            $('a, button, .service-card, .project-card, .price-card').on('mouseenter', function () {
+                $('#cursor').css({ transform: 'scale(2.5)' });
+                $('#cursorRing').css({ transform: 'scale(1.5)', opacity: 0.8 });
+            }).on('mouseleave', function () {
+                $('#cursor').css({ transform: 'scale(1)' });
+                $('#cursorRing').css({ transform: 'scale(1)', opacity: 0.5 });
+            });
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > 60) $('#navbar').addClass('scrolled');
+                else $('#navbar').removeClass('scrolled');
+            });
+
+            function revealElements() {
+                $('.reveal').each(function () {
+                    var top = $(this).offset().top;
+                    var windowBottom = $(window).scrollTop() + $(window).height();
+                    if (top < windowBottom - 60) {
+                        $(this).addClass('visible');
+                        $(this).find('.skill-fill').each(function () {
+                            $(this).css('width', $(this).data('width') + '%');
+                        });
+                    }
+                });
+            }
+            $(window).on('scroll', revealElements);
+            revealElements();
+
+            function animateCounters() {
+                $('[data-count]').each(function () {
+                    var $el = $(this);
+                    var target = parseInt($el.data('count'));
+                    var suffix = target === 100 ? '%' : '+';
+                    var start = 0;
+                    var step = Math.ceil(target / (1500 / 16));
+                    var timer = setInterval(function () {
+                        start += step;
+                        if (start >= target) { start = target; clearInterval(timer); }
+                        $el.text(start + suffix);
+                    }, 16);
+                });
+            }
+            var countersStarted = false;
+            $(window).on('scroll', function () {
+                if (!countersStarted && $('.hero-stats').length) {
+                    if ($(window).scrollTop() + $(window).height() > $('.hero-stats').offset().top) {
+                        countersStarted = true;
+                        animateCounters();
+                    }
+                }
+            });
+            setTimeout(animateCounters, 800);
+
+            $('a[href^="#"]').on('click', function (e) {
+                var target = $(this).attr('href');
+                if ($(target).length) {
+                    e.preventDefault();
+                    $('html, body').animate({ scrollTop: $(target).offset().top - 80 }, 700, 'swing');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
